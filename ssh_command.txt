@@ -1,0 +1,19 @@
+vagrant init
+vagrant up
+
+you can also do 'vagrant ssh' in dos prompt to get the private_key, username, port and host id.
+And then ssh using cygwin
+-l tells that the username on cywgin is not the same on ssh machine, -p gives the port number.
+ssh -l 127.0.0.1 -i private_key vagrant@127.0.0.1 -p 2222
+
+https://github.com/petewarden/dstk/issues/57
+
+https://www.vagrantup.com/docs/getting-started/up.html
+
+https://scotch.io/tutorials/how-to-create-a-vagrant-base-box-from-an-existing-one
+
+http://stackoverflow.com/questions/20560152/what-is-the-vagrant-syntax-for-adding-a-locally-existing-vdi
+
+https://github.com/mitchellh/vagrant/issues/6725 
+
+https://support.rackspace.com/how-to/logging-in-with-an-ssh-private-key-on-linuxmac/
